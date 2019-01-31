@@ -1,5 +1,24 @@
-# Meterpreter 
+# Meterpreter (Windows Hacking)
 Meterpreter là một payload được sử dụng rộng rãi trong tấn công hệ điều hành Windows, có thể áp dụng trên hầu hết các phiên bản của Windows hiện nay. Sau khi khai thác thành công, Meterpreter sẽ là một remote shell (chương trình nhập lệnh điều khiển từ xa) cho phép hacker thực hiện các lệnh tấn công hay các công cụ trên hệ thống mục tiêu. Meterpreter có rất nhiều chức năng như quản lý file, upload/download, chụp ảnh màn hình, chụp ảnh webcam, ghi âm,... 
+
+Payload
+
+Trong mạng máy tính dữ liệu được vận chuyển là payload, thường được gói trong một frame, bao gồm framing bít và một frame check sequence. Thí dụ là Ethernet frame, Point-to-Point Protocol (PPP) frame, Kênh sợi quang frame, và V.42 modem frame.
+
+Trong an ninh máy tính, payload là một phần của một malware như sâu máy tính or virus, một đoạn code được chạy trên máy nạn nhân, dùng để thực hiện một số hoạt động độc hại nào đó, như hủy bỏ dữ liệu, gởi spam hay mã hóa dữ liệu. Thêm vào payload, những malware như vậy có thêm overhead code để lan truyền nó, hay để tránh bị nhận diện.
+
+Trong lập trình máy tính, thuật ngữ này được sử dụng, để phân biệt giao thức overhead với dữ liệu thực tế. Ví dụ: phản ứng JSON của dịch vụ web có thể là:
+
+```
+	{  
+	   "data":{  
+		  "message":"Hello, world!"
+	   }
+	}
+```
+
+Đoạn "Hello, world!" là payload, trong khi phần còn lại là giao thức overhead.
+
 
 ## Usage
 ### Development environment
