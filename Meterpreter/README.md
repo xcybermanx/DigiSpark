@@ -1,3 +1,22 @@
 # Meterpreter 
 Meterpreter là một payload được sử dụng rộng rãi trong tấn công hệ điều hành Windows, có thể áp dụng trên hầu hết các phiên bản của Windows hiện nay. Sau khi khai thác thành công, Meterpreter sẽ là một remote shell (chương trình nhập lệnh điều khiển từ xa) cho phép hacker thực hiện các lệnh tấn công hay các công cụ trên hệ thống mục tiêu. Meterpreter có rất nhiều chức năng như quản lý file, upload/download, chụp ảnh màn hình, chụp ảnh webcam, ghi âm,... 
 
+## Usage
+### Development environment
++ [Download](https://www.arduino.cc/en/Main/Software) Arduino for the Operating system like Windows, MacOS, Linux.
++ To transfer the created scripts to the Digispark then install additional drivers
+  
+  First, we download the Arduino software from the above web page and install it on our windows system:
+
+  ![](https://lh3.googleusercontent.com/odj2U1ZQrqD0mXpMmzRnUz8sdHXRNaIFaKeDKAzboqmRuINsPhK9kauyg5GbwK3PL8E2eTQS1u8MEcdFYbP0_RFnmhhYeprgAuGv-IRE3GnpFXvmxgH_x4NjyJpoP6EKgOocICp-wYOpjVnxTmEgZhCKhvykSKydKFoeD7OkCnbGxq5G-Unsko4QSqxCFPvkgnv94ByGR4mVkItIFKGWLtxZBmj_SvzBEap0UgRg14JEnNTX76lN3_9T-g9LEMmWOMrNNCyoG3O6QP9tdz04KdizNB68qVSQyfkCPlg6PmKKZutRyZ-usyT4x2tT3IGxK0hSVDEyaPh0xQks1jpGNBJokvf-dvZkXL3lSvfxKLjhBpBWwDSwxDAXMJ3TeWVhaCLo7bkVg3hL-_a74j2GeS46cytNnNVRQUURRxKcKSWChDVEeGijhioYnzlRaGDDPJXZmj5tBM73gHQ2m8I2fFmLXituny6q_nJrRvZqKq3yPL2K0jNS1AjwpN1zJDyZd-kMFMD-jypf5FTTykm2GzVOgB6itKL6sjKWW4MwB4KSafb8nW6CFoQQzWTfMjXVVIXPPDAVvXUTizcPpS3V033MfojMgv3o_yH6xyboAEzdWRLtR2HQpChE9MztUm8NbVi_GVFA0ZuxpHv8gywL47bs1rCdQe1n_CGA7pbzrZvbUElFvdOZicoL1jmPnZS0D6qQYCIEFdsk7Pzz=w1024-h341-no)
+  
+  Next we need the Digistump drivers. The corresponding archive (Digistump.Drivers.zip) is available at this [URL](https://github.com/digistump/DigistumpArduino/releases).
+
+  ![](https://lh3.googleusercontent.com/4JamgKF5LAgKJujv7s1YalKtlG7RgfzAxyA8KynH7D08FRFtFKfk0dLucagdS5-9JPFzaoBH0LeDhy8cO91JsrPG3h2IiXnSKGLUQy4MkiboUyI_HqCEXG4KepFjkRSwvfSI4DYxztM1U0tkd0xSEZWBvLqCAzkpEWAIETzype2bcCHiG9hna3VtcaXy-bM6AnSJgUWsBdSL1VDSwle6XTI10hKhX-psAEfoHbRu8C6XkWRB5pJaO_9tYsD_OH81aUtUYmS2NxOnu5myXm98yccJpoEcPqb_i9sNYQhEc7J9o3CSfXHGtjvE4bqz1Ru7d4hw6EWXAbI3NMZz65qMaPjm8Y2VLnpSKgxw3dXCy70qSHm-ro8EuTH-Ez6DiqdLwMIF4xe1zoLcIcTUkLzOv8OwLYUyeJY0IKHowWSrgtELDvkdIPEVnpAYYH02hfBclwHiTsg5rXRqKaXRgB5nEcpSKu5tdTe5sS8s3KfK1nmv0n2qfj9JHvnrAclxVUSOYjZVk700QIrgxbfzw2eqFIO2NzsImRt40s6GqD_ngVvp4PhJdpaI4Ldgid3vYdRw0OpLZdgp3iU1yJJklgJKOc317J20rLLERDi-vTj413EMa15DfG13obOYXv2DI6OGVZAowrH6TxL7Y52mFgc2HZnjbxjhRpNj1ZLoFx-JRI2vwUxILJUykJvZHMrOqme25A4sOA58al4-WE35=w1003-h606-no)
+  
+  Once the zip file has been unpacked anywhere, you can install the **DPinst64** file 
+  
+  ![](https://lh3.googleusercontent.com/239Tk__diAbUZ224zlnYHkFOr1zhSJ0mXUgpZkbawvuB1fi6klzm0gqO64wMx9JaWyb7shZ19urM6pJ4pM3l8HzzSrQvNWJyYUhbcty44oQzxxm_5Q0lPtb8yH9WqYbtxI5czW_d21_14dBS2Z-pGCpMrhCAWVwDCEZD6x9kuUhryH3qbEalof91eiDRL4HQ6FwkDrKFl6IdsM6cEiH_1dsSqssQIBr_B8Rn3eeoqhHXW93URrbcbxUW40Glp58mK4taBYXdeam63f2PGC1Q092PtTuePj01Tav1D8I9Gpd8PSgI9kJzGyQzoGXuXpxhyzyJUzZvXINgL1TBd0gV0IuOYaBplKaUqFVEbTE1L7VqJZYf1qwgtNygKxma10Knb3FTsbC9-BYfiNohHl6K4zTqfmKPlM7QbRgwc9xWfOAeiQpRmtNEJm_Xyl2EvnhHDlPC0rYY3o5Y15o5JwRKivTjq-USO_rGoku4843U5mJhEMr1l9r0xBtow0sqbvmdFhKebkuqBfNUVaFe-EKLXnEgnxfkcH0BY7bx9VKK1ML2BjALtyMrxMqXaxay9rxTsczUEK8RfzJp8jJq2lAH5VEeovjyGsoUhVeTdKiF15v8SG90V8-kiiJVoqmEUy4vwfhVc4dWZKi2guBz5tbUhNlbRFqLdpKTZ4Dj7TIFTRu_fCSKX4RmnoGWnsWcihDYciZMNfd-JyCAcku5=w621-h392-no)
+  
+  For this purpose, some device drivers are installed, which are available after completion on our Windows PC.
+  
