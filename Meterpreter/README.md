@@ -1,0 +1,3 @@
+# Meterpreter 
+Meterpreter là một payload được sử dụng rộng rãi trong tấn công hệ điều hành Windows, có thể áp dụng trên hầu hết các phiên bản của Windows hiện nay. Sau khi khai thác thành công, Meterpreter sẽ là một remote shell (chương trình nhập lệnh điều khiển từ xa) cho phép hacker thực hiện các lệnh tấn công hay các công cụ trên hệ thống mục tiêu. Meterpreter có rất nhiều chức năng như quản lý file, upload/download, chụp ảnh màn hình, chụp ảnh webcam, ghi âm,... 
+
